@@ -1,4 +1,4 @@
-# AWSCloudProject2
+# AWSCloudProject2 ⛳
 EC2 Instance Automation| Using AWS Services – EC2, Lambda, Event Bridge, IAM  
 
 Problem Statment - We have 10 EC2 instance have to stop all at night 12pm and start at 7am  
@@ -21,3 +21,4 @@ Step5 - Lambda function is in rest state so someone needs to trigger based on sc
 Step6 - Create rule1 to trigger lambda stop at scheduled time and  rule2 to trigger lambda start at scheduled time using Cron Expression  
 
 Step7 - you will see logs in Clous Watch Service 
+<img width="680" height="167" alt="Capture" src="https://github.com/user-attachments/assets/5b881803-e8ee-4336-9144-fdd714e72fbf" />
