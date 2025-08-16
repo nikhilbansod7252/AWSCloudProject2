@@ -22,3 +22,20 @@ Step6 - Create rule1 to trigger lambda stop at scheduled time and  rule2 to trig
 
 Step7 - you will see logs in Clous Watch Service 
 <img width="680" height="167" alt="Capture" src="https://github.com/user-attachments/assets/5b881803-e8ee-4336-9144-fdd714e72fbf" />
+
+
+EC2 Instance Automation| Using AWS Services – EC2, Lambda, Event Bridge, IAM | GitHub  
+
+	Implemented a fully automated solution to start and stop Amazon EC2 instances based on a predefined schedule to optimize cost and resource  
+
+   and resource utilization.  
+   
+	Developed two separate AWS lambda funcations – one is start and another stop EC2 instances capable of handling multiple instances  
+
+   Simultaneously.  
+   
+	Create custom IAM role to lambda function, granting only necessary permissions to enable secure communication with EC2.  
+
+	Utilizes Amazon Event Bridge to configure cron-expression rules that automatically trigger lambda function at specific time, ensuring consistent   
+
+   uptime during business hours and reducing costs after hours.
